@@ -2,21 +2,242 @@
     {
         "id": 0,
         "text": "Diese Software ist ein Leitfaden zur Auswahl des passenden Betriebssystems für unterschiedliche Anwendungsfälle Anleitung: Diese Software dient dazu, Ihnen eine Empfehlung für ein Betriebssystem zu geben. Wenn Sie also unsicher sind welche Betriebssystem das richtige für Sie persönlich ist, klicken sie auf \"Start\" und beantworten Sie die Fragen. Zum Schluss erhalten Sie eine an Sie angepasste Empfehlung.",
-        "possible_answers": []
+        "possible_answers": [],
+        "points": 0
     },
     {
         "id": 1,
         "text": "Benötigen Sie nur ein Betriebssystem für einen Computer den Sie bereits besitzen oder möchten Sie sich einen neuen Computer mitsamt Betriebssystem zulegen?",
-        "possible_answers": ["Ich möchte nur ein Betriebssystem anschaffen.","Ich möchte einen Computer und ein Betriebssystem anschaffen."]
+        "possible_answers": ["Ich möchte nur ein Betriebssystem anschaffen.","Ich möchte einen Computer und ein Betriebssystem anschaffen."],
+        "points": 0
     },
     {
         "id": 2,
         "text": "Mit welchem dieser Betriebssysteme haben Sie die meiste Erfahrung?",
-        "possible_answers": ["Windows","MacOS","ChromeOS","Ubuntu","Linux Mint"]
+        "possible_answers": ["Windows","MacOS","ChromeOS","Ubuntu","Linux Mint"],
+        "points": 10
     },
     {
         "id": 3,
         "text": "Sind Sie bereit für ein Betriebssystem zu bezahlen?",
-        "possible_answers": ["Ja","Nein"]
+        "possible_answers": ["Ja","Nein"],
+        "points": 3
+    },
+    {
+        "id": 4,
+        "text": "Handelt es sich bei ihrem Computer um ein Gerät von Apple?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 5
+    },
+    {
+        "id": 5,
+        "text": "Handelt es sich bei ihrem Computer um ein Gerät von Google?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 5
+    },
+    {
+        "id": 6,
+        "text": "Ist dieses Apple Gerät schon älter und hat an Leistung verloren?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 5
+    },
+    {
+        "id": 7,
+        "text": "Handelt es sich bei Ihrem Gerät um ein Gerät mit geringer Leistung?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 5
+    },
+    {
+        "id": 8,
+        "text": "Möchten Sie einen Laptop- oder einen Desktop-Computer kaufen?",
+        "possible_answers": ["Laptop","Desktop"],
+	    "points": 0
+    },
+    {
+        "id": 9,
+        "text": "Sind Sie bereit mehr als 700€ für ihren Desktop-Computer auszugeben?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 3
+    },
+    {
+        "id": 10,
+        "text": "Sind Sie bereit mehr als 1000€ für ihren Laptop-Computer auszugeben?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 3 
+    },
+    {
+        "id": 11,
+        "text": "Sind Sie dazu bereit einen neuen Laptop- oder Desktop-Computer zu kaufen, um ein Betriebssystem nutzen zu können das auf ihrem vorhanden Computer nicht läuft?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 5
+    },
+    {
+        "id": 12,
+        "text": "Nutzen Sie ihren Computer für Internet Surfing?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 10
+    },
+    {
+        "id": 13,
+        "text": "Nutzen Sie ihren Computer für Multimedia und Entertainment?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 10
+    },
+    {
+        "id": 14,
+        "text": "Nutzen Sie ihren Computer für Gaming?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 10
+    },
+    {
+        "id": 15,
+        "text": "Nutzen Sie ihren Computer für Büroarbeit?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 10
+    },
+    {
+        "id": 16,
+        "text": "Nutzen Sie ihren Computer für technische Arbeit?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 10
+    },
+    {
+        "id": 17,
+        "text": "Nutzen Sie ihren Computer für kreative Arbeit?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 10
+    },
+    {
+        "id": 18,
+        "text": "Nutzen Sie ihren Computer um etwas zu Programmieren/Entwickeln?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 10
+    }
+    ,
+    {
+        "id": 19,
+        "text": "Sind Sie an bestimmte Programme/Software gebunden die Sie unbedingt nutzen möchten?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 0
+    },
+    {
+        "id": 20,
+        "text": "Sind die Programme an die Sie gebunden sind auf Windows verfügbar?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 4
+    },
+    {
+        "id": 21,
+        "text": "Sind die Programme an die Sie gebunden sind auf MacOS verfügbar?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 4
+    },
+    {
+        "id": 22,
+        "text": "Sind die Programme an die Sie gebunden sind auf ChromeOS verfügbar?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 4
+    },
+    {
+        "id": 23,
+        "text": "Sind die Programme an die Sie gebunden sind auf Ubuntu verfügbar?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 4
+    },
+    {
+        "id": 24,
+        "text": "Sind die Programme an die Sie gebunden sind auf Linux Mint verfügbar?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 4
+    },
+    {
+        "id": 25,
+        "text": "Wie würden Sie ihre Fähigkeiten im Umgang mit Computern beschreiben?",
+        "possible_answers": ["mangelhaft","mittelmäßig","gut"],
+	    "points": 2
+    },
+    {
+        "id": 26,
+        "text": "Ist es Ihnen wichtig, dass ein bestimmter Package Manager auf Ihrem Betriebssystem nutzbar ist?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 0
+    },
+    {
+        "id": 27,
+        "text": "Ist es Ihnen wichtig, dass eine bestimmte Shell auf Ihrem Betriebssystem nutzbar ist?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 0
+    },
+    {
+        "id": 28,
+        "text": "Ist es Ihnen wichtig, dass Ihr Betriebssystem ein bestimmtes File System nutzt?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 0
+    },
+    {
+        "id": 29,
+        "text": "Ist der Package Manger den Sie nutzen möchten auf Windows verfügbar?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 1
+    },
+    {
+        "id": 30,
+        "text": "Ist der Package Manger den Sie nutzen möchten auf MacOS verfügbar?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 1
+    },
+    {
+        "id": 31,
+        "text": "Ist der Package Manger den Sie nutzen möchten auf Ubuntu verfügbar?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 1
+    },
+    {
+        "id": 32,
+        "text": "Ist der Package Manger den Sie nutzen möchten auf Linux Mint verfügbar?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 1
+    },
+    {
+        "id": 33,
+        "text": "Ist der Package Manger den Sie nutzen möchten auf ChromeOS verfügbar?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 1
+    },
+    {
+        "id": 34,
+        "text": "Ist die Shell die Sie nutzen möchten auf Windows verfügbar?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 1
+    },
+    {
+        "id": 35,
+        "text": "Ist die Shell die Sie nutzen möchten auf MacOS verfügbar?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 1
+    },
+    {
+        "id": 36,
+        "text": "Ist die Shell die Sie nutzen möchten auf Ubuntu verfügbar?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 1
+    },
+    {
+        "id": 37,
+        "text": "Ist die Shell die Sie nutzen möchten auf Linux Mint verfügbar?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 1
+    },
+    {
+        "id": 38,
+        "text": "Ist die Shell die Sie nutzen möchten auf ChromeOS verfügbar?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 1
+    },
+    {
+        "id": 39,
+        "text": "Ist das File System, dass Sie nutzen möchten auf Laufwerken basieren?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 1
     }
 ]
