@@ -1,0 +1,24 @@
+<div class="background">
+  <mat-card>
+    <mat-card-header>{{ CurrentQuestion.Text }}</mat-card-header>
+    <mat-card-content>
+      <mat-radio-group [(ngModel)]="selectedAnswer">
+        <mat-radio-button
+          class="example-radio-button"
+          *ngFor="let Answer of CurrentQuestion.PossibleAnswers"
+          [value]="Answer"
+        >
+          {{ Answer }}
+        </mat-radio-button>
+      </mat-radio-group>
+    </mat-card-content>
+  </mat-card>
+  <button
+    mat-raised-button
+    color="accent"
+    (click)="GoToNextQuestion()"
+    [disabled]="!selectedAnswer && CurrentQuestion.PossibleAnswers?.length > 0"
+  >
+    Weiter
+  </button>
+</div>

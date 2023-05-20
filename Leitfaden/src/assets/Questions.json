@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "text": "Diese Software ist ein Leitfaden zur Auswahl des passenden Betriebssystems für unterschiedliche Anwendungsfälle Anleitung: Diese Software dient dazu, Ihnen eine Empfehlung für ein Betriebssystem zu geben. Wenn Sie also unsicher sind welche Betriebssystem das richtige für Sie persönlich ist, klicken sie auf \"Start\" und beantworten Sie die Fragen. Zum Schluss erhalten Sie eine an Sie angepasste Empfehlung.",
+        "possible_answers": []
+    },
+    {
+        "id": 1,
+        "text": "Benötigen Sie nur ein Betriebssystem für einen Computer den Sie bereits besitzen oder möchten Sie sich einen neuen Computer mitsamt Betriebssystem zulegen?",
+        "possible_answers": ["Ich möchte nur ein Betriebssystem anschaffen.","Ich möchte einen Computer und ein Betriebssystem anschaffen."]
+    },
+    {
+        "id": 2,
+        "text": "Mit welchem dieser Betriebssysteme haben Sie die meiste Erfahrung?",
+        "possible_answers": ["Windows","MacOS","ChromeOS","Ubuntu","Linux Mint"]
+    },
+    {
+        "id": 3,
+        "text": "Sind Sie bereit für ein Betriebssystem zu bezahlen?",
+        "possible_answers": ["Ja","Nein"]
+    }
+]
