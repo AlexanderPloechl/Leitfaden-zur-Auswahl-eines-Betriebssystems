@@ -17,7 +17,7 @@
       CurrentQuestion.Text
     }}</mat-card-header>
     <ng-template #ResultTemplate>
-      <pre>{{ Result }}</pre>
+      <pre class="result-text">{{ Result }}</pre>
     </ng-template>
     <mat-card-content>
       <mat-radio-group [(ngModel)]="selectedAnswer">
@@ -33,7 +33,7 @@
   </mat-card>
   <button
     class="spacing allignRight"
-    *ngIf="!finished; else RestartTemplate"
+    *ngIf="!finished"
     mat-raised-button
     color="accent"
     (click)="GoToNextQuestion()"
@@ -41,15 +41,4 @@
   >
     Weiter
   </button>
-
-  <ng-template #RestartTemplate>
-    <button
-      class="spacing allignRight"
-      mat-raised-button
-      color="accent"
-      (click)="Restart()"
-    >
-      Neustarten
-    </button>
-  </ng-template>
 </div>

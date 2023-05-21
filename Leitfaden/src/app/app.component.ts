@@ -571,11 +571,11 @@ export class AppComponent implements OnInit {
     values = this.BubbleSort(values);
     this.Result = "Das Betriebssystem, dass ihrem Anwendungsfall am meisten entspricht ist:\n\n" + values[0][1]
       + " mit einer Punktzahl von " + values[0][0]
-      + "!\n\nDie anderen Betriebssysteme erreichten folgende Punktzahlen:\n"
-      + values[1][1] + ": " + values[1][0] + "Punkte,\n"
-      + values[2][1] + ": " + values[2][0] + "Punkte,\n"
-      + values[3][1] + ": " + values[3][0] + "Punkte,\n"
-      + values[4][1] + ": " + values[4][0] + "Punkte.";
+      + "!\n\nDie anderen Betriebssysteme erreichten folgende Punktzahlen:\n\n"
+      + values[1][1] + ": " + values[1][0] + " Punkte,\n"
+      + values[2][1] + ": " + values[2][0] + " Punkte,\n"
+      + values[3][1] + ": " + values[3][0] + " Punkte,\n"
+      + values[4][1] + ": " + values[4][0] + " Punkte.";
   }
 
   BubbleSort(elements: any[]): any[] {
