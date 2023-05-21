@@ -1,13 +1,13 @@
 [
     {
         "id": 0,
-        "text": "Diese Software ist ein Leitfaden zur Auswahl des passenden Betriebssystems für unterschiedliche Anwendungsfälle Anleitung: Diese Software dient dazu, Ihnen eine Empfehlung für ein Betriebssystem zu geben. Wenn Sie also unsicher sind welche Betriebssystem das richtige für Sie persönlich ist, klicken sie auf \"Start\" und beantworten Sie die Fragen. Zum Schluss erhalten Sie eine an Sie angepasste Empfehlung.",
+        "text": "Diese Software ist ein Leitfaden zur Auswahl des passenden Betriebssystems für unterschiedliche Anwendungsfälle. Anleitung: Diese Software dient dazu, Ihnen eine Empfehlung für ein Betriebssystem zu geben. Wenn Sie also unsicher sind, welches Betriebssystem, das richtige für Sie persönlich ist, klicken Sie auf \"Start\" und beantworten Sie die Fragen. Zum Schluss erhalten Sie eine an Sie angepasste Empfehlung.",
         "possible_answers": [],
         "points": 0
     },
     {
         "id": 1,
-        "text": "Benötigen Sie nur ein Betriebssystem für einen Computer den Sie bereits besitzen oder möchten Sie sich einen neuen Computer mitsamt Betriebssystem zulegen?",
+        "text": "Benötigen Sie nur ein Betriebssystem für einen Computer, den Sie bereits besitzen oder möchten Sie sich einen neuen Computer mitsamt Betriebssystem zulegen?",
         "possible_answers": ["Ich möchte nur ein Betriebssystem anschaffen.","Ich möchte einen Computer und ein Betriebssystem anschaffen."],
         "points": 5
     },
@@ -67,7 +67,7 @@
     },
     {
         "id": 11,
-        "text": "Sind Sie dazu bereit einen neuen Laptop- oder Desktop-Computer zu kaufen, um ein Betriebssystem nutzen zu können das auf ihrem vorhanden Computer nicht läuft?",
+        "text": "Sind Sie dazu bereit einen neuen Laptop- oder Desktop-Computer zu kaufen, um ein Betriebssystem nutzen zu können. das auf Ihrem vorhanden Computer nicht läuft?",
         "possible_answers": ["Ja","Nein"],
 	    "points": 5
     },
@@ -116,37 +116,37 @@
     ,
     {
         "id": 19,
-        "text": "Sind Sie an bestimmte Programme/Software gebunden die Sie unbedingt nutzen möchten?",
+        "text": "Sind Sie an bestimmte Programme/Software gebunden, die Sie unbedingt nutzen möchten?",
         "possible_answers": ["Ja","Nein"],
 	    "points": 4
     },
     {
         "id": 20,
-        "text": "Sind die Programme an die Sie gebunden sind auf Windows verfügbar?",
+        "text": "Sind die Programme, an die Sie gebunden sind, auf Windows verfügbar?",
         "possible_answers": ["Ja","Nein"],
 	    "points": 4
     },
     {
         "id": 21,
-        "text": "Sind die Programme an die Sie gebunden sind auf MacOS verfügbar?",
+        "text": "Sind die Programme, an die Sie gebunden sind, auf MacOS verfügbar?",
         "possible_answers": ["Ja","Nein"],
 	    "points": 4
     },
     {
         "id": 22,
-        "text": "Sind die Programme an die Sie gebunden sind auf ChromeOS verfügbar?",
+        "text": "Sind die Programme, an die Sie gebunden sind, auf ChromeOS verfügbar?",
         "possible_answers": ["Ja","Nein"],
 	    "points": 4
     },
     {
         "id": 23,
-        "text": "Sind die Programme an die Sie gebunden sind auf Ubuntu verfügbar?",
+        "text": "Sind die Programme, an die Sie gebunden sind, auf Ubuntu verfügbar?",
         "possible_answers": ["Ja","Nein"],
 	    "points": 4
     },
     {
         "id": 24,
-        "text": "Sind die Programme an die Sie gebunden sind auf Linux Mint verfügbar?",
+        "text": "Sind die Programme, an die Sie gebunden sind, auf Linux Mint verfügbar?",
         "possible_answers": ["Ja","Nein"],
 	    "points": 4
     },
@@ -176,31 +176,31 @@
     },
     {
         "id": 29,
-        "text": "Ist der Package Manger den Sie nutzen möchten auf Windows verfügbar?",
+        "text": "Ist der Package Manager den Sie nutzen möchten auf Windows verfügbar?",
         "possible_answers": ["Ja","Nein"],
 	    "points": 1
     },
     {
         "id": 30,
-        "text": "Ist der Package Manger den Sie nutzen möchten auf MacOS verfügbar?",
+        "text": "Ist der Package Manager den Sie nutzen möchten auf MacOS verfügbar?",
         "possible_answers": ["Ja","Nein"],
 	    "points": 1
     },
     {
         "id": 31,
-        "text": "Ist der Package Manger den Sie nutzen möchten auf ChromeOS verfügbar?",
+        "text": "Ist der Package Manager den Sie nutzen möchten auf ChromeOS verfügbar?",
         "possible_answers": ["Ja","Nein"],
 	    "points": 1
     },
     {
         "id": 32,
-        "text": "Ist der Package Manger den Sie nutzen möchten auf Ubuntu verfügbar?",
+        "text": "Ist der Package Manager den Sie nutzen möchten auf Ubuntu verfügbar?",
         "possible_answers": ["Ja","Nein"],
 	    "points": 1
     },
     {
         "id": 33,
-        "text": "Ist der Package Manger den Sie nutzen möchten auf Linux Mint verfügbar?",
+        "text": "Ist der Package Manager den Sie nutzen möchten auf Linux Mint verfügbar?",
         "possible_answers": ["Ja","Nein"],
 	    "points": 1
     },
