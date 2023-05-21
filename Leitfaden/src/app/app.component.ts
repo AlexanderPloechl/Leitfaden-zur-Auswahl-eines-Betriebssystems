@@ -231,8 +231,10 @@ export class AppComponent implements OnInit {
   ProcessAnswer(answer: string, question: Question): void {
     switch (question.Id) {
       case 0:
+        this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
         break;
       case 1:
+        this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
         break;
       case 2:
         if (answer == question.PossibleAnswers[0]) {
@@ -292,12 +294,7 @@ export class AppComponent implements OnInit {
         }
         break;
       case 8:
-        if (answer == question.PossibleAnswers[0]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
-        if (answer == question.PossibleAnswers[1]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
+        this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
         break;
       case 9:
         if (answer == question.PossibleAnswers[0]) {
@@ -316,28 +313,13 @@ export class AppComponent implements OnInit {
         }
         break;
       case 11:
-        if (answer == question.PossibleAnswers[0]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
-        if (answer == question.PossibleAnswers[1]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
+        this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
         break;
       case 12:
-        if (answer == question.PossibleAnswers[0]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
-        if (answer == question.PossibleAnswers[1]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
+        this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
         break;
       case 13:
-        if (answer == question.PossibleAnswers[0]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
-        if (answer == question.PossibleAnswers[1]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
+        this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
         break;
       case 14:
         if (answer == question.PossibleAnswers[0]) {
@@ -348,12 +330,7 @@ export class AppComponent implements OnInit {
         }
         break;
       case 15:
-        if (answer == question.PossibleAnswers[0]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
-        if (answer == question.PossibleAnswers[1]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
+        this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
         break;
       case 16:
         if (answer == question.PossibleAnswers[0]) {
@@ -380,12 +357,7 @@ export class AppComponent implements OnInit {
         }
         break;
       case 19:
-        if (answer == question.PossibleAnswers[0]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
-        if (answer == question.PossibleAnswers[1]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
+        this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
         break;
       case 20:
         if (answer == question.PossibleAnswers[0]) {
@@ -412,20 +384,10 @@ export class AppComponent implements OnInit {
         }
         break;
       case 23:
-        if (answer == question.PossibleAnswers[0]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
-        if (answer == question.PossibleAnswers[1]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, -question.Points, question.Points)
-        }
+        this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
         break;
       case 24:
-        if (answer == question.PossibleAnswers[0]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
-        if (answer == question.PossibleAnswers[1]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, -question.Points)
-        }
+        this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
         break;
       case 25:
         if (answer == question.PossibleAnswers[0]) {
@@ -439,28 +401,13 @@ export class AppComponent implements OnInit {
         }
         break;
       case 26:
-        if (answer == question.PossibleAnswers[0]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
-        if (answer == question.PossibleAnswers[1]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
+        this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
         break;
       case 27:
-        if (answer == question.PossibleAnswers[0]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
-        if (answer == question.PossibleAnswers[1]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
+        this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
         break;
       case 28:
-        if (answer == question.PossibleAnswers[0]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
-        if (answer == question.PossibleAnswers[1]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
+        this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
         break;
       case 29:
         if (answer == question.PossibleAnswers[0]) {
@@ -479,12 +426,7 @@ export class AppComponent implements OnInit {
         }
         break;
       case 31:
-        if (answer == question.PossibleAnswers[0]) {
-          this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
-        }
-        if (answer == question.PossibleAnswers[1]) {
-          this.User.AddPoints(question.Points, question.Points, -question.Points, question.Points, question.Points)
-        }
+        this.User.AddPoints(question.Points, question.Points, question.Points, question.Points, question.Points)
         break;
       case 32:
         if (answer == question.PossibleAnswers[0]) {
