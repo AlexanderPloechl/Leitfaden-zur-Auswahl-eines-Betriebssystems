@@ -9,7 +9,7 @@
         "id": 1,
         "text": "Benötigen Sie nur ein Betriebssystem für einen Computer den Sie bereits besitzen oder möchten Sie sich einen neuen Computer mitsamt Betriebssystem zulegen?",
         "possible_answers": ["Ich möchte nur ein Betriebssystem anschaffen.","Ich möchte einen Computer und ein Betriebssystem anschaffen."],
-        "points": 0
+        "points": 5
     },
     {
         "id": 2,
@@ -51,7 +51,7 @@
         "id": 8,
         "text": "Möchten Sie einen Laptop- oder einen Desktop-Computer kaufen?",
         "possible_answers": ["Laptop","Desktop"],
-	    "points": 0
+	    "points": 5
     },
     {
         "id": 9,
@@ -118,7 +118,7 @@
         "id": 19,
         "text": "Sind Sie an bestimmte Programme/Software gebunden die Sie unbedingt nutzen möchten?",
         "possible_answers": ["Ja","Nein"],
-	    "points": 0
+	    "points": 4
     },
     {
         "id": 20,
@@ -160,19 +160,19 @@
         "id": 26,
         "text": "Ist es Ihnen wichtig, dass ein bestimmter Package Manager auf Ihrem Betriebssystem nutzbar ist?",
         "possible_answers": ["Ja","Nein"],
-	    "points": 0
+	    "points": 1
     },
     {
         "id": 27,
         "text": "Ist es Ihnen wichtig, dass eine bestimmte Shell auf Ihrem Betriebssystem nutzbar ist?",
         "possible_answers": ["Ja","Nein"],
-	    "points": 0
+	    "points": 1
     },
     {
         "id": 28,
         "text": "Ist es Ihnen wichtig, dass Ihr Betriebssystem ein bestimmtes File System nutzt?",
         "possible_answers": ["Ja","Nein"],
-	    "points": 0
+	    "points": 1
     },
     {
         "id": 29,
