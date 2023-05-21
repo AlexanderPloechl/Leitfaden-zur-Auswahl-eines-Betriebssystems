@@ -1,6 +1,25 @@
 .background{
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.spacing{
+    margin: 0.5%;
+}
+
+.allignRight{
+    float: right;
+}
+
+#heading{
+    margin-left: 2%;
+}
+
+#toolbar-button{
+    margin-right: 2%;
+}
+
+.empty-space{
+    flex: 1 1 auto;
 }

@@ -1,5 +1,18 @@
+<mat-toolbar color="primary">
+  <h1 id="heading">Leitfaden zur Auswahl eines Betriebssystems</h1>
+  <span class="empty-space"></span>
+  <button
+    id="toolbar-button"
+    class="spacing allignRight"
+    mat-raised-button
+    color="accent"
+    (click)="Restart()"
+  >
+    Neustarten
+  </button>
+</mat-toolbar>
 <div class="background">
-  <mat-card>
+  <mat-card class="spacing">
     <mat-card-header *ngIf="!finished; else ResultTemplate">{{
       CurrentQuestion.Text
     }}</mat-card-header>
@@ -19,6 +32,7 @@
     </mat-card-content>
   </mat-card>
   <button
+    class="spacing allignRight"
     *ngIf="!finished; else RestartTemplate"
     mat-raised-button
     color="accent"
@@ -29,7 +43,12 @@
   </button>
 
   <ng-template #RestartTemplate>
-    <button mat-raised-button color="accent" (click)="Restart()">
+    <button
+      class="spacing allignRight"
+      mat-raised-button
+      color="accent"
+      (click)="Restart()"
+    >
       Neustarten
     </button>
   </ng-template>
