@@ -13,7 +13,11 @@ export class User {
         this.MintScore = 0;
     }
 
-    GenerateRecomendation() {
-
+    AddPoints(windows: number, macos: number, chromeos: number, ubuntu: number, mint: number) {
+        this.WindowsScore += windows;
+        this.MacOSScore += macos;
+        this.ChromeOSScore += chromeos;
+        this.UbuntuScore += ubuntu;
+        this.MintScore += mint;
     }
 }

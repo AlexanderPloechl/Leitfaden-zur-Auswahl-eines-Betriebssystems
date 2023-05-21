@@ -109,7 +109,7 @@
     },
     {
         "id": 18,
-        "text": "Nutzen Sie ihren Computer um etwas zu Programmieren/Entwickeln?",
+        "text": "Nutzen Sie ihren Computer um zu Programmieren/Entwickeln?",
         "possible_answers": ["Ja","Nein"],
 	    "points": 10
     }
@@ -188,19 +188,19 @@
     },
     {
         "id": 31,
-        "text": "Ist der Package Manger den Sie nutzen möchten auf Ubuntu verfügbar?",
+        "text": "Ist der Package Manger den Sie nutzen möchten auf ChromeOS verfügbar?",
         "possible_answers": ["Ja","Nein"],
 	    "points": 1
     },
     {
         "id": 32,
-        "text": "Ist der Package Manger den Sie nutzen möchten auf Linux Mint verfügbar?",
+        "text": "Ist der Package Manger den Sie nutzen möchten auf Ubuntu verfügbar?",
         "possible_answers": ["Ja","Nein"],
 	    "points": 1
     },
     {
         "id": 33,
-        "text": "Ist der Package Manger den Sie nutzen möchten auf ChromeOS verfügbar?",
+        "text": "Ist der Package Manger den Sie nutzen möchten auf Linux Mint verfügbar?",
         "possible_answers": ["Ja","Nein"],
 	    "points": 1
     },
@@ -218,26 +218,32 @@
     },
     {
         "id": 36,
-        "text": "Ist die Shell die Sie nutzen möchten auf Ubuntu verfügbar?",
-        "possible_answers": ["Ja","Nein"],
-	    "points": 1
-    },
-    {
-        "id": 37,
-        "text": "Ist die Shell die Sie nutzen möchten auf Linux Mint verfügbar?",
-        "possible_answers": ["Ja","Nein"],
-	    "points": 1
-    },
-    {
-        "id": 38,
         "text": "Ist die Shell die Sie nutzen möchten auf ChromeOS verfügbar?",
         "possible_answers": ["Ja","Nein"],
 	    "points": 1
     },
     {
-        "id": 39,
-        "text": "Ist das File System, dass Sie nutzen möchten auf Laufwerken basieren?",
+        "id": 37,
+        "text": "Ist die Shell die Sie nutzen möchten auf Ubuntu verfügbar?",
         "possible_answers": ["Ja","Nein"],
 	    "points": 1
+    },
+    {
+        "id": 38,
+        "text": "Ist die Shell die Sie nutzen möchten auf Linux Mint verfügbar?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 1
+    },
+    {
+        "id": 39,
+        "text": "Möchten Sie ein File System nutzen welches auf Laufwerken basiert?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 1
+    },
+    {
+        "id": 40,
+        "text": "Nutzen Sie Programme die für die ein Computer mit hoher Leistung erforderlich ist?",
+        "possible_answers": ["Ja","Nein"],
+	    "points": 5
     }
 ]
