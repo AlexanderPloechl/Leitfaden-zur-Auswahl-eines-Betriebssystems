@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
   CurrentQuestion: Question = new Question();
   selectedAnswer: string = "";
   finished: boolean = false;
-  Result: string = "";
+  result: string = "";
 
   constructor(private jsonService: JsonService) { }
   ngOnInit(): void {
@@ -511,7 +511,7 @@ export class AppComponent implements OnInit {
       [this.User.UbuntuScore, "Ubuntu"],
       [this.User.MintScore, "Linux Mint"]];
     values = this.BubbleSort(values);
-    this.Result = "Das Betriebssystem, dass ihrem Anwendungsfall am meisten entspricht ist:\n\n" + values[0][1]
+    this.result = "Das Betriebssystem, dass ihrem Anwendungsfall am meisten entspricht ist:\n\n" + values[0][1]
       + " mit einer Punktzahl von " + values[0][0]
       + "!\n\nDie anderen Betriebssysteme erreichten folgende Punktzahlen:\n\n"
       + values[1][1] + ": " + values[1][0] + " Punkte,\n"
